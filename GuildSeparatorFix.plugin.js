@@ -1,6 +1,6 @@
 //META{"name":"GuildSeparatorFix"}*//
 
-var GuildSeparatorFix = () => {};
+var GuildSeparatorFix = function () {};
 
 GuildSeparatorFix.prototype.start = () => {
   $('.guildSeparator-3s64Iy').parent().addClass('guildSeparator');
